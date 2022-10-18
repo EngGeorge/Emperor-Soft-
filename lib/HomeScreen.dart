@@ -24,7 +24,7 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       body: Center(
         child: ListView.builder(
-          itemCount: 10,
+          itemCount: Items_Data.length,
           itemBuilder: (context, index) {
             return Padding(
               padding: const EdgeInsets.only(top: 15.0, left: 10.0, right: 10.0),
